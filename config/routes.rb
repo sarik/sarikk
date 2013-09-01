@@ -1,12 +1,4 @@
 Sarik::Application.routes.draw do
-<<<<<<< HEAD
-<<<<<<< HEAD
-  get "static_pages/home"
-  get "static_pages/help"
-  get "static_pages/about"
-=======
-=======
->>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
  # get "users/new"
 root  'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get'
@@ -19,10 +11,7 @@ root  'static_pages#home'
   #get "static_pages/help", as: 'help'
   #get 'abo', to: 'static_pages#about',via: 'get'
   #match 'abh_about', to: 'static_pages#about',via: 'get'
-<<<<<<< HEAD
->>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
-=======
->>>>>>> 271f5e7e989a220f1be3abd88ad73b736bbe772d
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
